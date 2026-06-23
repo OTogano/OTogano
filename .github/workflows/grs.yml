@@ -41,11 +41,10 @@ jobs:
       - name: Generate streak stats card
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          user_id: OTogano
-          token: ${{ secrets.STREAK_STATS_TOKEN }}
-          theme: dark
-          output: profile/streak.svg
-
+          options: user=Togano&theme=dark&disable_animations=false
+          path: profile/streak.svg
+          token: ${{ secrets.GH_TOKEN }}
+         
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
