@@ -39,7 +39,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Generate streak stats card
-        uses: DenverCoder1/github-readme-streak-stats@master
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
           user_id: OTogano
           token: ${{ secrets.STREAK_STATS_TOKEN }}
