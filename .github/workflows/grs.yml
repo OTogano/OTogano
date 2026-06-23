@@ -41,7 +41,7 @@ jobs:
       - name: Generate streak stats card
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=Togano&theme=dark&disable_animations=false
+          options: user=OTogano&theme=dark&disable_animations=false
           path: profile/streak.svg
           token: ${{ secrets.GH_TOKEN }}
          
